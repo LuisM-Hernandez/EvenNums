@@ -6,7 +6,8 @@ namespace EvenNums
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for(int i =2; i<102; i+=2)
+            Console.WriteLine(i);
         }
     }
 }
